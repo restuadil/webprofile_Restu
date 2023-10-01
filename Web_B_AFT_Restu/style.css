@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,500&display=swap');
+
+html,
+body,
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#app {
+    background: rgb(214, 241, 242);
+    background: linear-gradient(90deg, rgba(214, 241, 242, 1) 49%, rgba(9, 82, 121, 1) 88%, rgba(0, 212, 255, 1) 100%);
+}
+
+.container {
+    background-color: rgb(229, 235, 235);
+    box-shadow: 10px 0 50px rgb(186, 189, 189);
+}
+
+.nav {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav h1 {
+    font-size: 30px;
+    color: rgb(55, 170, 247);
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.navigation a {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    color: rgb(55, 170, 247);
+    scale: 1.6;
+}
+
+/* content section */
+.content {
+    margin: 0 50px;
+    height: 80vh;
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.hero {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-img {
+    border-radius: 10px;
+}
+
+
+.hero h1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: rgb(55, 170, 247);
+    text-shadow: 10px 10px 50px rgb(55, 170, 247);
+}
+
+.hero span {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(17, 144, 228);
+}
+
+.btn {
+    width: 150px;
+    padding: 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(17, 144, 228);
+    border: 2px solid rgb(5, 104, 170);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: rgb(55, 170, 247);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    scale: 0.9;
+    color: slategray
+}
+
+/* icon styles */
+i {
+    transition: color 0.3s;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+
+.bi-instagram {
+    color: rgb(184, 0, 31);
+}
+
+.bi-linkedin {
+    color: rgb(18, 128, 246);
+}
+
+
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 150px 50px;
+    width: full;
+}
+
+.left-about {
+    text-align: justify;
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+.left-about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: rgb(55, 170, 247);
+    text-shadow: 10px 10px 50px rgb(55, 170, 247);
+}
+
+.left-about p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.left-about span {
+    color: rgb(55, 170, 247);
+}
+
+.code {
+    height: 400px
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: rgb(55, 170, 247);
+    text-shadow: 10px 10px 50px rgb(55, 170, 247);
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.tech {
+    width: 100px;
+    display: block;
+    margin: 10px 50px;
+    border: 2px solid rgb(55, 170, 247);
+    border-radius: 10px;
+    padding: 10px;
+}
